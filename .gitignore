@@ -1,0 +1,46 @@
+# ======================== Keil 编译产物 ========================
+MDK-ARM/SguanFOC_Debug/
+MDK-ARM/**/*.o
+MDK-ARM/**/*.d
+MDK-ARM/**/*.crf
+MDK-ARM/**/*.axf
+MDK-ARM/**/*.map
+MDK-ARM/**/*.htm
+MDK-ARM/**/*.lnp
+MDK-ARM/**/*.lst
+MDK-ARM/**/*.i
+MDK-ARM/**/*.sct
+MDK-ARM/**/*.dep
+MDK-ARM/**/*.callgraph
+MDK-ARM/*.uvguix.*
+
+# ======================== 压缩包/大文件 ========================
+*.rar
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# ======================== 视频文件 ========================
+*.avi
+*.mp4
+*.wmv
+*.mkv
+
+# ======================== 临时文件 ========================
+*.tmp
+*.log
+*.bak
+Thumbs.db
+desktop.ini
+*.swo
+*.swp
+*~
+
+# ======================== IDE配置 ========================
+.vscode/
+.idea/
+*.code-workspace
+
+# ======================== 其他 ========================
+keilkill.bat
